@@ -1,0 +1,29 @@
+DOM => Document Object Model = Used to create and manipulate html elements dynamically.
+=> create element
+=> get element
+=> edit element
+=> mainpulation of html elements
+=> element = tag + content
+=> attributes = class,id,styles,...
+
+====> create element
+Step1:- creating html element
+syntax:=
+const/Let variablename=Document.createElement(HTML tag)
+Step2:-
+adding content >> 2 methods
+* inner HTML 
+* inner Text
+syntax- variablename.innerHtml="content"
+step 3:- 
+Appending the elements to the body of the html document.
+syntax:-
+document.body.append(variablename)
+
+//set attributes
+variablename.setAttribute("attributename","attributevalue")
+div.setAttribute("class", "conatiner")
+
+div.classList.add("btn","btn-primary") = multiple
+div.className = "conatiner"
+div.id = "conatiner"
